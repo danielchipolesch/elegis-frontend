@@ -10,7 +10,10 @@ const model = ref([
     },
     {
         label: 'Documento',
-        items: [{ label: 'Documento', icon: 'pi pi-fw pi-book', to: '/documento' }]
+        items: [
+            { label: 'Documento', icon: 'pi pi-fw pi-book', to: '/documento' },
+            { label: 'Documento Item', icon: 'pi pi-fw pi-book', to: '/documento-item' }
+        ]
     },
     {
         label: 'UI Components',

@@ -12,6 +12,7 @@ onMounted(() => {
     nodeService.getTreeNodes().then((data) => (treeValue.value = data));
     nodeService.getTreeTableNodes().then((data) => (treeTableValue.value = data));
 });
+
 </script>
 
 <template>

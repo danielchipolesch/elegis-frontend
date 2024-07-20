@@ -61,7 +61,7 @@ const isOutsideClicked = (event) => {
 </script>
 
 <template>
-    <div class="layout-topbar">
+    <div class="layout-topbar primary">
         <router-link to="/" class="layout-topbar-logo">
             <img :src="logoUrl" alt="logo" />
             <span>eLegis</span>

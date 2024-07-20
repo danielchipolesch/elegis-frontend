@@ -25,6 +25,7 @@ const load = (index) => {
     loading.value[index] = true;
     setTimeout(() => (loading.value[index] = false), 1000);
 };
+
 </script>
 
 <template>
