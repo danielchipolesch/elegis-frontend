@@ -9,6 +9,6 @@ const drawer = inject('drawer');
 
 <template>
     <v-navigation-drawer v-model="drawer" elevation="2">
-        <AppMenu/>
+        <AppMenu />
     </v-navigation-drawer>
 </template>
